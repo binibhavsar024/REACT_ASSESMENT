@@ -1,0 +1,22 @@
+.ui.styled.accordion .title {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+  }
+  
+  .ui.styled.accordion .title:hover {
+    background: #eee;
+  }
+  
+  .ui.styled.accordion .content {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-top: none;
+  }
+  
+  .ui.styled.accordion .item.active .content {
+    display: block;
+  }
+  
